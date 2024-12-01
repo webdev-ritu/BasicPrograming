@@ -17,6 +17,14 @@ function isPrime(num) {
     }
     return true;
 }
-console.log(isPrime(8));
-console.log(isPrime(11));
+console.log(isPrime(8)); 
+console.log(isPrime(11)); 
 console.log(isPrime(17));
+
+//checkEvenOdd
+
+function isEven(num){
+    return num % 2 === 0;
+}
+console.log(isEven(4)); //output: true
+console.log(isEven(9)); //output: false
